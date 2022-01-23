@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://wzq02.tk:931/"><img src="https://github.com/WZQ02/EatLTX/tree/main/static/image/ClickBefore.png?raw=true" width="100" height="100" alt="EatLTX"></a>
+  <a href="https://wzq02.tk:931/"><img src="https://github.com/WZQ02/EatLTX/blob/main/static/image/ClickBefore.png?raw=true" width="100" height="100" alt="EatLTX"></a>
 </p>
 <div align="center">
 
