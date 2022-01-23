@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '蔡';
+    if (score <= 49) return '呵呵，蔡';
     if (score <= 89) return 'nba';
     if (score <= 149) return '哇浪这么厉害';
     if (score <= 199) return '我去，什么高级神触';
