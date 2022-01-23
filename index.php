@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>吃掉小鹿乃</title>
-    <meta itemprop="name" content="吃掉小鹿乃" />
+    <title>吃掉....李大鸟！？</title>
+    <meta itemprop="name" content="吃掉....李大鸟！？" />
     <meta itemprop="description" content="新概念音游" />
     <meta itemprop="image" content="https://www.thac.cc/kano/res/logo.jpg" />
     <meta charset="utf-8" />
@@ -28,9 +28,9 @@
             <div id="GameScoreLayer-text"></div>
             <div id="GameScoreLayer-score" style="margin:10px 0;">得分</div>
             <div id="GameScoreLayer-bast">最佳</div>
-            <button type="button" class="btn btn-secondary btn-lg" onclick="replayBtn()">重来</button>
-            <button type="button" class="btn btn-secondary btn-lg" onclick="goRank();">排行</button>
-            <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='https://github.com/arcxingye/EatKano'">开源</button>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="replayBtn()">再来</button>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="goRank();">排行榜</button>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='https://github.com/arcxingye/EatKano'">源代码</button>
         </div>
     </div>
     </div>
@@ -38,14 +38,14 @@
         <div class="welcome-bg FILL"></div>
         <div class="FILL BOX-M" style="position:absolute;top:0;left:0;right:0;bottom:0;z-index:5;">
             <div style="margin:0 8% 0 9%;">
-                <div style="font-size:2.6em; color:#FEF002;">新概念音游</div><br />
+                <div style="font-size:2.6em; color:#FEF002;">我去！新概念音游!114</div><br />
                 <div style="font-size:2.2em; color:#fff; line-height:1.5em;">
-                    从最底下小鹿乃开始<br />
+                    从最底下的香哥开始点<br />
                     看看你20秒能多少分<br />
                 </div>
                 <br />
                 <div id="btn_group" style="display: block;">
-                    <button type="button" id="ready-btn" class="btn btn-primary loading btn-lg">点击开始</button>
+                    <button type="button" id="ready-btn" class="btn btn-primary loading btn-lg">日死李大鸟</button>
                     <br /><br />
                     <button type="button" class="btn btn-secondary btn-lg" onclick="show_setting()">游戏设置</button>
                 </div>
