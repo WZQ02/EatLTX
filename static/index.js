@@ -343,9 +343,8 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '蔡';
     if (score <= 89) return 'nba';
-    if (score <= 129) return '哇浪这么厉害';
-    if (score <= 169) return '我去';
-    return '什么高级神触';
+    if (score <= 149) return '哇浪这么厉害';
+    if (score <= 199) return '我去，什么高级神触';
 }
 
 function toStr(obj) {
