@@ -345,6 +345,8 @@ function shareText(score) {
     if (score <= 89) return 'nba';
     if (score <= 149) return '哇浪这么厉害';
     if (score <= 199) return '我去，什么高级神触';
+    if (score <= 499) return '！！！？？？';
+    return '呵呵呵，作弊是吧？';
 }
 
 function toStr(obj) {
