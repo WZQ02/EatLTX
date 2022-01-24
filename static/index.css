@@ -90,7 +90,7 @@ body {
 
 
 #welcome {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .6);
     text-align: center;
     font-weight: bold;
     overflow: hidden;
@@ -116,6 +116,7 @@ body {
     font-size: 4em;
     text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
     overflow: hidden;
+    animation: spin 1s linear infinite;
 }
 
 #GameLayerBG {
@@ -217,9 +218,6 @@ body {
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
-
-
-
 #GameScoreLayer-btn .btn,
 #GameScoreLayer-share .btn {
     text-align: center;
@@ -251,4 +249,31 @@ body {
     width: 100%;
     z-index: 10000;
     display: none;
+}
+
+.spin {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*夜间模式*/
+@media (prefers-color-scheme: dark) {
+    body { 
+        background: #252525; 
+    }
+    #GameLayerBG {
+        background: #111;
+    }
+    .GameLayer {
+        filter: invert(100%);
+    }
+    #GameScoreLayer {
+        color: #fff;
+    }
 }

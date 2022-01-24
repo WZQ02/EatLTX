@@ -338,7 +338,7 @@ function shareText(score) {
     var date2 = new Date();
     deviation_time = (date2.getTime() - _date1.getTime())
     if (deviation_time > 23000) {
-        return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
+        return '作弊是吧？（倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s）";
     }
     SubmitResults();
     if (score <= 49) return '呵呵，蔡';
@@ -414,4 +414,4 @@ document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false
     }
-};//还原原有反F12方法
+};//保留原有反F12方法

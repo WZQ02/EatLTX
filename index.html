@@ -18,7 +18,7 @@
 
 <body onLoad="init()" oncontextmenu=self.event.returnValue=false>
     <div id="GameScoreLayer" class="BBOX SHADE bgc1" style="display:none;">
-        <div style="padding:5%;margin-top: 200px;background-color: rgba(125, 181, 216, 0.3);">
+        <div style="padding:5%;margin-top: 200px;background-color: rgba(233, 191, 114, 0.3);backdrop-filter: blur(24px);">
             <div id="GameScoreLayer-text"></div>
             <div id="GameScoreLayer-score" style="margin:10px 0;">得分</div>
             <div id="GameScoreLayer-bast">最佳</div>
@@ -31,7 +31,7 @@
         <div class="welcome-bg FILL"></div>
         <div class="FILL BOX-M" style="position:absolute;top:0;left:0;right:0;bottom:0;z-index:5;">
             <div style="margin:0 8% 0 9%;">
-                <div style="font-size:2.6em; color:#FEF002;">我去！新概念音游!114</div><br />
+                <div style="font-size:2.6em; color:#FEF002;" class="spin">我去！新概念音游!114</div><br />
                 <div style="font-size:2.2em; color:#fff; line-height:1.5em;">
                     从最底下的香哥开始点<br />
                     看看你20秒能多少分<br />
@@ -59,5 +59,4 @@
         </div>
     </div>
 </body>
-
 </html>
