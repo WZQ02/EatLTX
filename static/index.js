@@ -409,24 +409,9 @@ function goRank() {
     }
     window.location.href=link;
 }
-console.log("什么？你想上F12？呵呵，不给你改（改完直接刷新）")
-/*document.onkeydown = function (e) {
+console.log("李天香是gay，额！")
+document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false
     }
-};←原有的反F12方法*/
-setInterval(function() {check();}, 2000);
-var check = function() {
-function doCheck(a) {
-    if (('' + a / a)['length'] !== 1 || a % 20 === 0) {
-        (function() {}['constructor']('debugger')());
-    } else {
-        (function() {}['constructor']('debugger')());
-        }
-        doCheck(++a);
-    }
-    try {
-        doCheck(0);
-    } catch (err) {}
-};
-check();//更换反F12的方法，代码来自https://blog.csdn.net/qq_44877496/article/details/107745864
+};//还原原有反F12方法
