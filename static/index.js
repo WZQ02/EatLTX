@@ -45,6 +45,7 @@
         let btn = document.getElementById('ready-btn');
         btn.className = 'btn btn-primary btn-lg';
         btn.onclick = function () {
+            createjs.Sound.play("rsndl");
             closeWelcomeLayer();
         }
     }
@@ -106,6 +107,10 @@
         _gameTime, _gameTimeNum, _gameScore, _date1, deviation_time;
 
     w.gameInit = function() {
+        createjs.Sound.registerSound({
+            src: "./static/music/rsndl.mp3",
+            id: "rsndl"
+        });
         createjs.Sound.registerSound({
             src: "./static/music/err.mp3",
             id: "err"
